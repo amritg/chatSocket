@@ -4,11 +4,16 @@
   "description": "A simple chatting application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --watch client --watch server.js -e html,css server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amritg/chatSocket.git"
+  },
+  "dependencies": {
+    "express": "*",
+    "morgan": "^1.7.0",
+    "socket.io": "*"
   },
   "author": "Amrit Gautam",
   "license": "ISC",
