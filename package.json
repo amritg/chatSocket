@@ -11,9 +11,9 @@
     "url": "git+https://github.com/amritg/chatSocket.git"
   },
   "dependencies": {
-    "express": "*",
+    "express": "^4.14.1",
     "morgan": "^1.7.0",
-    "socket.io": "*"
+    "socket.io": "^1.7.2"
   },
   "author": "Amrit Gautam",
   "license": "ISC",
